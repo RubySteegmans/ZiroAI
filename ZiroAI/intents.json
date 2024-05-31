@@ -1,0 +1,242 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "Hey",
+                "Greetings",
+                "Howdy",
+                "Hi there",
+                "How's it going?",
+                "Yo!",
+                "What's happening?",
+                "How's everything?",
+                "What's new?",
+                "What's going on?",
+                "How's life?",
+                "What's good?"
+            ],
+            "responses": [
+                "Hi there, how can I help you?",
+                "Hello, what can I do for you today?",
+                "Good day! How may I assist you?",
+                "Yo! Ready to dive into your finances?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Farewell",
+                "I'm off",
+                "Till next time",
+                "Cya",
+                "Adios",
+                "Catch you later",
+                "Later",
+                "Take care",
+                "I'm out"
+            ],
+            "responses": [
+                "See you later, thanks for visiting.",
+                "Have a great day ahead!",
+                "Goodbye! Feel free to ask me anything anytime."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "Appreciate it",
+                "Thanks a lot",
+                "You're a lifesaver",
+                "Thank you very much",
+                "Thanks for your time",
+                "Thank you for your assistance"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could help.",
+                "Anytime, happy to assist!",
+                "Glad to be of service! Anything else you need?"
+            ]
+        },
+        {
+            "tag": "prediction",
+            "patterns": [
+                "How much might I spend next month?",
+                "What will my expenses be next quarter?",
+                "How much will I spend next month?",
+                "Can you predict my spending for next week?",
+                "Estimate my next month's expenses",
+                "Give me a forecast of next month's spending",
+                "What's my financial outlook for next year?",
+                "Can you give me a budget estimate for next month?",
+                "What are the projected expenses for next year?",
+                "Predict my total expenses for the upcoming week",
+                "What's my expected spending for next month?",
+                "Can you forecast my expenses for next quarter?",
+                "What will my expenses look like in the future?",
+                "How much will I spend in the coming time?"
+            ],
+            "responses": [
+                "I can help you with that. Generating forecast...",
+                "Let me calculate your expected expenses for next month."
+            ]
+        },
+        {
+            "tag": "expenses",
+            "patterns": [
+                "What are my expenses?",
+                "What did I spend last year?",
+                "What are my expenses for last quarter?",
+                "How much money did I spend in April?",
+                "List my recent expenses",
+                "Show me my spending for the last month",
+                "Break down my expenses for the last week",
+                "Where did most of my salary go last year?",
+                "Show expenses by category for last month",
+                "What are my expenses for the previous month?",
+                "Can you provide a summary of my recent spending?",
+                "How has my spending changed over the last few months?"
+            ],
+            "responses": [
+                "I can help you with that. Calculating expenses...",
+                "Let's take a look at your recent expenses."
+            ]
+        },
+        {
+            "tag": "income",
+            "patterns": [
+                "What is my income?",
+                "How much money did I make last week?",
+                "What is my income for last month?",
+                "How much money did I make in April?",
+                "Can you show my last month's year?",
+                "Detail my income for the previous month",
+                "What was my total income last week?",
+                "Can you provide a summary of my recent earnings?",
+                "How has my income changed over the last year?",
+                "What are my income sources from last month?",
+                "Show me my income for the last quarter",
+                "What are my earnings for the previous month?",
+                "Can you show my income for the last quarter?"
+            ],
+            "responses": [
+                "I can help you with that. Calculating income...",
+                "Sure, let me fetch your income details."
+            ]
+        },
+        {
+            "tag": "balance",
+            "patterns": [
+                "What is my balance?",
+                "How much money do I have?",
+                "What is my account balance?",
+                "Can you check my current balance?",
+                "Tell me my balance",
+                "Do I have enough for this month?",
+                "Show my total balance now",
+                "What's left in my account?",
+                "Can you give me my financial standing?",
+                "What's my available balance?",
+                "How much money do I have left?",
+                "What's my current account balance?",
+                "Can you tell me my bal?"
+            ],
+            "responses": [
+                "I can help you with that. Calculating balance...",
+                "Let me check your current account balance."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "What can you do?",
+                "What can you help me with?",
+                "Can you assist me?",
+                "How can you be of service?",
+                "Can you guide me?",
+                "Can you support me?",
+                "Can you aid me?",
+                "Can you help me with my finances?"
+            ],
+            "responses": [
+                "I can help you with your finances. You can ask me about your expenses, income, balance, and future spending.",
+                "Sure, ask away. I'm here to assist with your financial queries."
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "What can I do?",
+                "What are my options?",
+                "What can I ask you?",
+                "What can you do for me?",
+                "Give me some options",
+                "What are my choices?"
+            ],
+            "responses": [
+                "You can ask me about your expenses, income, balance, and future spending.",
+                "There's a lot I can help with. From tracking your expenses to predicting future spending."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [
+            ],
+            "responses": ["I'm sorry, I don't understand. Can you ask me something else?", 
+            "I don't understand",
+            "I don't know",
+            "I'm not sure",
+            "I don't get it",
+            "What do you mean?",
+            "Can you say that again?"
+        ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, I can't help with that."]
+        },
+        {
+            "tag": "friends",
+            "patterns": [
+                "With which friend did I hang out the most?",
+                "Who's my best friend according to my bills?",
+                "Which friend did I spend the most money with?",
+                "Show me the friend I go out with frequently.",
+                "Identify the friend in my top spending.",
+                "Who am I spending too much money with?",
+                "Can you show me expenses shared with friends?",
+                "Which friends are costing me the most?",
+                "Detail my social spending this month.",
+                "Am I spending more with certain friends?"
+            ],
+            "responses": ["I can help you with that. Looking for friends..."]
+        },
+        {
+            "tag": "categories",
+            "patterns": [
+                "What are my most expensive categories?",
+                "What are my most expensive categories for last month?",
+                "What are my most expensive categories for April?",
+                "List my top expense categories.",
+                "Which categories did I spend on the most?"
+            ],
+            "responses": ["I can help you with that. Calculating categories..."]
+        }
+    ]
+}

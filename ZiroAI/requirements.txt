@@ -1,0 +1,11 @@
+Flask
+Werkzeug
+requests
+pandas
+numpy
+torch
+nltk
+transformers
+torchaudio
+datasets
+accelerate

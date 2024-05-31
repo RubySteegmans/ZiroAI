@@ -1,0 +1,52 @@
+[
+{
+  "OCR": "SAVOURYBREAD
+1 1 @ 24.99
+SPAR P/CRISPS 17
+TOTAL
+TENDERED Credit Card
+MENLYN MAIN CENTRE
+SUPERSPAR
+VAT NR: 4770111336
+LIQ LIC: GLB700000378
+PHONE NR: 012 348 2204
+VAT rate
+15.00%
+FOR 2 ITEMS
+excl.
+67.81
+SLIP / TILL
+4282 006
+CASHIER NAME:
+EACH
+TAX INVOICE
+170G
+Fikile
+TAX
+10.17
+R
+THANK YOU FOR
+YOUR SUPPORT
+PLEASE CALL AGAIN
+24.99 A
+52.99 A
+77.98
+77.98
+/ CASHIER/ DATE/ TIME
+203 02.05.24 12:06
+incl.
+77.98 A",
+  "PlaceName": "optional place name",
+  "Items": [{"name": "item name", "price": price, "quantity": quantity}],
+  "Currency": "currency",
+  "Total": total,
+  "Timestamp": "timestamp"
+},{
+  "OCR": "your OCR text here",
+  "PlaceName": "optional place name",
+  "Items": [{"name": "item name", "price": price, "quantity": quantity}],
+  "Currency": "currency",
+  "Total": total,
+  "Timestamp": "timestamp"
+}
+]
